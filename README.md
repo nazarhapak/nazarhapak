@@ -34,6 +34,6 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
     <img alt="PostgeSQL" src="https://img.shields.io/badge/-PostgeSQL-2596be?style=flat-square&logo=postgresql&logoColor=white" />
   </span>
   
-  <h2>Certifications</h2>
+  <h2>Course Certificates</h2>
   <a href="https://www.udemy.com/certificate/UC-c357bcdc-3611-419c-aa0a-ab5992223577/">Complete Web Developer by Andrei Neagoie</a>
 </details>
