@@ -40,5 +40,6 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
   <h2>Currently Learning</h2>
     - Advancing my HTML, CSS and Design Skills; <br>
     - Diving deeper into JavaScript;
+    - Exploring Git and GitHub;
 
 </details>
