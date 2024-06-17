@@ -1,5 +1,5 @@
 <h1>Hi there 👋</h1>
-I am Nazar, highschool student from Uzhhorod Ukraine. 🧑🏼‍🎓<br>
+I am Nazar, highschool student from Uzhhorod, Ukraine. 🧑🏼‍🎓<br>
 Passionate about web development, basketball and pretty much everything. 🏆<br>
 
 <br>
