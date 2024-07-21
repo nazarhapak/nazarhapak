@@ -36,6 +36,7 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
   
   <h2>Course Certificates</h2>
   <a href="https://www.udemy.com/certificate/UC-c357bcdc-3611-419c-aa0a-ab5992223577/">Complete Web Developer by Andrei Neagoie</a>
+  <a href="https://www.udemy.com/certificate/UC-8299211e-6362-40c6-aaea-bd7456501a15/">Build Responsive Real-World Websites with HTML and CSS by Jonas Schmedtmann</a>
 
   <h2>Currently Learning</h2>
     - Advancing my HTML, CSS and Design Skills; <br>
