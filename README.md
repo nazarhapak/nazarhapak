@@ -35,11 +35,11 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
   </span>
 
   <h2>My Projects</h2>
-  <a href="https://nazarhapak.github.io/face-recognition/">Face Recognition Application</a>
+  <a href="https://nazarhapak.github.io/face-recognition/" target="_blank">Face Recognition Application</a>
   <br>
-  <a href="https://nazarhapak.github.io/weather-app/">Weather Application</a>
+  <a href="https://nazarhapak.github.io/weather-app/" target="_blank">Weather Application</a>
   <br>
-  <a href="https://nazarhapak.github.io/omnifood/">Omnifood (from HTML & CSS course)</a>
+  <a href="https://nazarhapak.github.io/omnifood/" target="_blank">Omnifood (from HTML & CSS course)</a>
   
   
   <h2>Course Certificates</h2>
