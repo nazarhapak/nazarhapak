@@ -35,17 +35,17 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
   </span>
 
   <h2>My Projects</h2>
-  <a href="https://nazarhapak.github.io/face-recognition/" target="_blank">Face Recognition Application</a>
+  <a href="https://nazarhapak.github.io/face-recognition/">Face Recognition Application</a>
   <br>
-  <a href="https://nazarhapak.github.io/weather-app/" target="_blank">Weather Application</a>
+  <a href="https://nazarhapak.github.io/weather-app/">Weather Application</a>
   <br>
-  <a href="https://nazarhapak.github.io/omnifood/" target="_blank">Omnifood (from HTML & CSS course)</a>
+  <a href="https://nazarhapak.github.io/omnifood/">Omnifood (from HTML & CSS course)</a>
   
   
   <h2>Course Certificates</h2>
-  <a href="https://www.udemy.com/certificate/UC-c357bcdc-3611-419c-aa0a-ab5992223577/" target="_blank">Complete Web Developer by Andrei Neagoie</a>
+  <a href="https://www.udemy.com/certificate/UC-c357bcdc-3611-419c-aa0a-ab5992223577/">Complete Web Developer by Andrei Neagoie</a>
   <br>
-  <a href="https://www.udemy.com/certificate/UC-8299211e-6362-40c6-aaea-bd7456501a15/" target="_blank">Build Responsive Real-World Websites with HTML and CSS by Jonas Schmedtmann</a>
+  <a href="https://www.udemy.com/certificate/UC-8299211e-6362-40c6-aaea-bd7456501a15/">Build Responsive Real-World Websites with HTML and CSS by Jonas Schmedtmann</a>
 
   <h2>Currently Learning</h2>
     - Advancing my HTML, CSS and Design Skills; <br>
