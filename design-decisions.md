@@ -14,9 +14,9 @@ Font Size System (px)
 2. Hero
 3. Skills
 4. Projects
-5. About Me
-6. Blog
-7. What to expect
+5. Blog
+6. What to expect
+7. How it works
 8. CTA
 9. Footer
 
