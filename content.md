@@ -5,14 +5,14 @@ Enthusiastic Web Developer
 
 ## About Me
 
-I am Nazar, and I am 15 years old from Uzhhorod, Ukraine. I study at Uzhhorod Lyceum named after T. Shevchenko and am currently starting my 11th grade. I play basketball for my city's team. I am kind, hardworking, someone who tries to keep things consistent and strives to perfect every small detail in my life, work, and studies.
+I am Nazar, and I am 15 years old from Uzhhorod, Ukraine. I study at Uzhhorod Lyceum named after T. Shevchenko and currently in 11th grade. I play basketball in my city's team. I am kind, hardworking, someone who tries to keep things consistent and strives to perfect every small detail in my life, work, and studies.
 
 (Add JavaScript to update age automatically)
 
 ## My Skills
 
 Mostly skilled in Frontend, but capable of handling Backend tasks if required.
-Basic Design and Copywriting Skills.
+Have Basic Design and Copywriting Skills.
 
 - HTML (Certified)
 - CSS (Certified)
@@ -26,14 +26,14 @@ Basic Design and Copywriting Skills.
 
 ## Course Certificates
 
-1. Complete Web Developer by Andrei Neagoie: https://www.udemy.com/certificate/UC-c357bcdc-3611-419c-aa0a-ab5992223577/
-2. Build Responsive Real-World Websites with HTML and CSS by Jonas Schmedtmann: https://www.udemy.com/certificate/UC-8299211e-6362-40c6-aaea-bd7456501a15/
+1. "Complete Web Developer" by Andrei Neagoie: https://www.udemy.com/certificate/UC-c357bcdc-3611-419c-aa0a-ab5992223577/
+2. "Build Responsive Real-World Websites with HTML and CSS" by Jonas Schmedtmann: https://www.udemy.com/certificate/UC-8299211e-6362-40c6-aaea-bd7456501a15/
 
 ## My Projects
 
 1. Weather Application (React, CSS): https://nazarhapak.github.io/weather-app/
 
-Dynamic weather application that provides current weather information based on user input. The app delivers seamless user experience, has responsive design and looks beautiful.
+Dynamic weather application that provides current weather information based on user input. The app delivers excellent user experience, has responsive design and looks beautiful.
 
 2. Face Recognition (React, CSS): https://nazarhapak.github.io/face-recognition/
 
@@ -66,7 +66,7 @@ A visually appealing and high-performing website that loads quickly, providing a
 
 4. Keeping You Informed
 
-Regular updates and clear communication throughout the project, so you always know the status and progress of your website. Open to recommending, consulting, and discussing various ideas and options, as well as talking about future work and additional services.
+Regular updates and clear communication throughout the project, so you always know the status and progress of your website. I am open to recommending, consulting, and discussing various ideas and options, as well as talking about future work and additional services.
 
 5. Healthy Prices
 

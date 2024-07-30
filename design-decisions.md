@@ -12,13 +12,14 @@ Font Size System (px)
 
 1. Header (Logo + Navigation)
 2. Hero
-3. Skills
-4. Projects
-5. Blog
-6. What to expect
-7. How it works
-8. CTA
-9. Footer
+3. About Me
+4. Skills
+5. Projects
+6. Blog
+7. What to expect
+8. How it works (Optional)
+9. CTA
+10. Footer
 
 ## Typograpy
 
