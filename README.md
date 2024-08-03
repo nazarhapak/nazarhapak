@@ -40,6 +40,7 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
   <a href="https://nazarhapak.github.io/weather-app/">Weather Application</a>
   <br>
   <a href="https://nazarhapak.github.io/omnifood/">Omnifood (from HTML & CSS course)</a>
+  <a href="https://to-do-website-bksx.onrender.com/">To-Do Website</a>
   
   
   <h2>Course Certificates</h2>
