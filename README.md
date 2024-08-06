@@ -4,6 +4,10 @@ Passionate about web development, basketball and pretty much everything. 🏆<br
 
 <br>
 
+<a href="https://nazarhapak.github.io/nazarhapak/" target="_blank">My Portfolio Website</a>
+
+<br>
+
 <details>
   
   <summary><i>Show more</i></summary>
