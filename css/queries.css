@@ -426,7 +426,7 @@
 
 @media (max-width: 415.5px) {
   .accordion-item:nth-child(3) {
-    max-height: 12.8rem;
+    max-height: 12.6rem;
   }
 
   .accordion-open.accordion-item:nth-child(3) {
@@ -434,9 +434,9 @@
   }
 }
 
-@media (max-width: 23.5em) {
+@media (max-width: 375.5px) {
   .accordion-item:nth-child(4) {
-    max-height: 12.8rem;
+    max-height: 12.6rem;
   }
 
   .accordion-open.accordion-item:nth-child(4) {
