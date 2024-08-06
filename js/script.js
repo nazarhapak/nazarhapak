@@ -143,6 +143,7 @@ displayArticles();
 const accordionItems = document.querySelectorAll(".accordion-item");
 
 accordionItems.forEach((accordionItem) => {
+  console.log(accordionItem.scrollHeight);
   accordionItem.addEventListener("click", () => {
     if (!accordionItem.classList.contains("accordion-open")) {
       accordionItems.forEach((accordionItem) => {
