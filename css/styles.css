@@ -706,7 +706,6 @@ button {
   transition: all 0.3s;
 
   position: relative;
-  max-height: 8.6rem;
   overflow: hidden;
 }
 
@@ -715,7 +714,7 @@ button {
 }
 
 .accordion-open.accordion-item {
-  max-height: 25rem !important;
+  max-height: 25rem;
 }
 
 .accordion-number,

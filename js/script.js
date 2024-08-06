@@ -1,3 +1,26 @@
+//! Get Default Font Size
+
+const getDefaultFontSize = () => {
+  const element = document.createElement("div");
+  element.style.width = "1rem";
+  element.style.display = "none";
+  document.body.append(element);
+
+  const widthMatch = window
+    .getComputedStyle(element)
+    .getPropertyValue("width")
+    .match(/\d+/);
+
+  element.remove();
+
+  if (!widthMatch || widthMatch.length < 1) {
+    return null;
+  }
+
+  const result = Number(widthMatch[0]);
+  return !isNaN(result) ? result : null;
+};
+
 //!  Displaying latest blog posts from DEV.to profile
 
 const fetchArticles = async () => {
@@ -143,14 +166,28 @@ displayArticles();
 const accordionItems = document.querySelectorAll(".accordion-item");
 
 accordionItems.forEach((accordionItem) => {
-  console.log(accordionItem.scrollHeight);
+  const setMaxHeight = (item) => {
+    const accordionItemTitleHeight =
+      item.querySelector(".accordion-title").scrollHeight;
+
+    item.style.maxHeight = `${
+      (getDefaultFontSize() / 10) * accordionItemTitleHeight +
+      (getDefaultFontSize() / 10) * 48
+    }px`;
+  };
+
+  setMaxHeight(accordionItem);
+
   accordionItem.addEventListener("click", () => {
     if (!accordionItem.classList.contains("accordion-open")) {
       accordionItems.forEach((accordionItem) => {
+        setMaxHeight(accordionItem);
         accordionItem.classList.remove("accordion-open");
       });
+      accordionItem.style.maxHeight = ``;
       accordionItem.classList.add("accordion-open");
     } else {
+      setMaxHeight(accordionItem);
       accordionItem.classList.remove("accordion-open");
     }
   });
@@ -162,29 +199,6 @@ const textareaEl = document.querySelector("#message");
 textareaEl.addEventListener("input", () => {
   textareaEl.style.height = textareaEl.scrollHeight + "px";
 });
-
-//! Get Default Font Size
-
-const getDefaultFontSize = () => {
-  const element = document.createElement("div");
-  element.style.width = "1rem";
-  element.style.display = "none";
-  document.body.append(element);
-
-  const widthMatch = window
-    .getComputedStyle(element)
-    .getPropertyValue("width")
-    .match(/\d+/);
-
-  element.remove();
-
-  if (!widthMatch || widthMatch.length < 1) {
-    return null;
-  }
-
-  const result = Number(widthMatch[0]);
-  return !isNaN(result) ? result : null;
-};
 
 //! Sticky Navigation Bar
 

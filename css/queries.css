@@ -283,7 +283,7 @@
   }
 }
 
-/*! Phones (688px) */
+/*! Mobile (688px) */
 
 @media (max-width: 43em) {
   html {
@@ -317,10 +317,6 @@
 
   .section-services {
     padding-bottom: 2.4rem;
-  }
-
-  .accordion-open.accordion-item {
-    max-height: 35rem !important;
   }
 
   .footer-col {
@@ -375,7 +371,7 @@
   }
 }
 
-/*! Small Phones (592px) */
+/*! Large Phones (592px) */
 
 @media (max-width: 37em) {
   .container {
@@ -407,6 +403,10 @@
     max-width: 100%;
   }
 
+  .accordion-open.accordion-item {
+    max-height: 40rem;
+  }
+
   .container--cta {
     padding: 2rem 0 4.8rem 0;
   }
@@ -422,8 +422,16 @@
   .footer-col-title {
     font-size: 1.8rem;
   }
+}
 
-  .accordion-open.accordion-item:nth-child(4) {
-    max-height: 45rem !important;
+/*! Small Phones (416px) */
+
+@media (max-width: 26em) {
+  .accordion-open.accordion-item {
+    max-height: 75rem;
+  }
+
+  .hidden-text {
+    grid-column: 1/ -1;
   }
 }
