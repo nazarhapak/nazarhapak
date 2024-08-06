@@ -419,8 +419,8 @@
     font-size: 1.8rem;
   }
 
-  .accordion-item {
-    max-height: 9rem;
+  .accordion-open.accordion-item:nth-child(4) {
+    max-height: 45rem !important;
   }
 }
 
@@ -440,6 +440,6 @@
   }
 
   .accordion-open.accordion-item:nth-child(4) {
-    max-height: 45rem !important;
+    max-height: 55rem !important;
   }
 }

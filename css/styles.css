@@ -706,7 +706,7 @@ button {
   transition: all 0.3s;
 
   position: relative;
-  max-height: 7.2rem;
+  max-height: 9rem;
   overflow: hidden;
 }
 
