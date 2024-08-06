@@ -3,11 +3,14 @@
 Nazar Hapak
 Enthusiastic Web Developer
 
+(Add Dark Theme and Ukrainian Language Versions of the website)
+
 ## About Me
 
 I am Nazar, and I am 15 years old from Uzhhorod, Ukraine. I study at Uzhhorod Lyceum named after T. Shevchenko and currently in 11th grade. I play basketball in my city's team. I am kind, hardworking, someone who tries to keep things consistent and strives to perfect every small detail in my life, work, and studies.
 
 (Add JavaScript to update age automatically)
+(Add image collage with 2-4 images overlaying themselves displaying my hobbies)
 
 ## My Skills
 
@@ -20,8 +23,8 @@ Have Basic Design and Copywriting Skills.
 - React
 - NodeJS
 - NPM
-- Express
 - Git
+- Express
 - PostgreSQL
 
 ## Course Certificates
@@ -72,6 +75,24 @@ Regular updates and clear communication throughout the project, so you always kn
 
 As a developer with less experience, I offer cheaper, but still fair pricing for my web development services, ensuring you get the best value at a lower costs.
 
+## How to get started
+
+1. Contact Me
+
+Start by reaching out through form below this section or through one of my social media profiles. I'm here to listen to your project ideas and needs. I will review and reply to your message within 24 hours.
+
+2. Discussing Your Project
+
+We'll go over the details together, covering design, content, approximate prices and deadlines. This is the phase where your vision takes shape and we outline the scope of work.
+
+3. Leave the Work to Me
+
+Once everything is agreed upon, I'll handle the development process. I'll keep you updated on all changes and progress to ensure everything aligns with your expectations.
+
+4. Final Touches & Deployment
+
+After the project is complete, we'll review it together for any final adjustments. Once you're satisfied, I'll handle the deployment and ensure everything is working smoothly.
+
 ## Contacts
 
 Contact me, and we can schedule a video call to further discuss your project.
@@ -82,3 +103,7 @@ Contact me, and we can schedule a video call to further discuss your project.
 - LinkedIn: https://www.linkedin.com/in/nazar-hapak-267665320/
 
 (Add some form with connected email service or Make small, but bright CTA Section with links to contact me)
+
+## Footer
+
+(Add fancy button that goes back to page, fires confetti and adds purple hat to an image)

@@ -12,11 +12,11 @@ Font Size System (px)
 
 1. Header (Logo + Navigation)
 2. Hero
-3. About Me
-4. Skills
+3. Skills
+4. About Me
 5. Projects
 6. Blog
-7. What to expect
+7. What to expect (Services)
 8. How it works (Optional)
 9. CTA
 10. Footer
@@ -24,3 +24,12 @@ Font Size System (px)
 ## Typograpy
 
 Default Typefaces: Inter Tight, sans-serif
+
+## Colors
+
+Brand (Main) Color: #3b82f6
+Tints: #c4dafc, #9dc1fb
+Shades: #3575dd, #234e94
+Greys: #222, #333, #555, #888, #999
+Gradients: linear-gradient(288deg, #3b82f6, #2f68c5)
+Other:
