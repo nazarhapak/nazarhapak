@@ -319,6 +319,10 @@
     padding-bottom: 2.4rem;
   }
 
+  .accordion-open.accordion-item {
+    max-height: 35rem !important;
+  }
+
   .footer-col {
     display: none;
   }
@@ -420,10 +424,18 @@
   .accordion-item:nth-child(3) {
     max-height: 12em;
   }
+
+  .accordion-open.accordion-item:nth-child(3) {
+    max-height: 40rem !important;
+  }
 }
 
 @media (max-width: 375.5px) {
   .accordion-item:nth-child(4) {
     max-height: 12rem;
+  }
+
+  .accordion-open.accordion-item:nth-child(4) {
+    max-height: 45rem !important;
   }
 }

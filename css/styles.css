@@ -715,7 +715,7 @@ button {
 }
 
 .accordion-open.accordion-item {
-  max-height: 25rem;
+  max-height: 25rem !important;
 }
 
 .accordion-number,
