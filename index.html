@@ -650,7 +650,11 @@
                 <p class="cta-text">
                   Fill out the form and send it, so we can discuss your project.
                 </p>
-                <form class="cta-form" action="#">
+                <form
+                  class="cta-form"
+                  action="https://formspree.io/f/xovawaee"
+                  method="POST"
+                >
                   <div>
                     <label for="message">Describe your project:</label>
                     <textarea
@@ -658,6 +662,7 @@
                       minlength="2"
                       type="text"
                       id="message"
+                      name="message"
                       placeholder="We're passionate skateboard group, and we want a website to share our skateboarding content with the world."
                       required
                     ></textarea>
@@ -668,6 +673,7 @@
                     <input
                       type="text"
                       id="name"
+                      name="first-name"
                       placeholder="John"
                       required
                       autocomplete="given-name"
@@ -679,12 +685,13 @@
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       placeholder="john@example.com"
                       required
                       autocomplete="email"
                     />
                   </div>
-                  <button class="btn-cta">Send form</button>
+                  <button class="btn-cta" type="submit">Send form</button>
                 </form>
               </div>
 
