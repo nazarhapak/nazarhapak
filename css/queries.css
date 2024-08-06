@@ -418,11 +418,15 @@
   .footer-col-title {
     font-size: 1.8rem;
   }
+
+  .accordion-item {
+    max-height: 9rem;
+  }
 }
 
 @media (max-width: 415.5px) {
   .accordion-item:nth-child(3) {
-    max-height: 12em;
+    max-height: 13rem;
   }
 
   .accordion-open.accordion-item:nth-child(3) {
@@ -430,9 +434,9 @@
   }
 }
 
-@media (max-width: 26.5em) {
+@media (max-width: 375.5px) {
   .accordion-item:nth-child(4) {
-    max-height: 12rem;
+    max-height: 13rem;
   }
 
   .accordion-open.accordion-item:nth-child(4) {
