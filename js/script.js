@@ -21,7 +21,7 @@ const getDefaultFontSize = () => {
   return !isNaN(result) ? result : null;
 };
 
-//!  Displaying latest blog posts from DEV.to profile
+//!  Displaying latest blog posts from DEV.to
 
 const fetchArticles = async () => {
   const articles = await fetch(
