@@ -144,7 +144,7 @@ const displayArticles = async () => {
             href="${url}"
             class="link article-link"
             aria-label="Read more about ${title}"
-            >Read more</a
+            >Dev.to article</a
           >
         </div>
       </div>
