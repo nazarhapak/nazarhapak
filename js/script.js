@@ -21,6 +21,146 @@ const getDefaultFontSize = () => {
   return !isNaN(result) ? result : null;
 };
 
+//!  Displaying latest blog posts from DEV.to
+
+const fetchArticles = async () => {
+  const articles = await fetch(
+    "https://dev.to/api/articles?username=nazarhapak"
+  ).then((res) => res.json());
+
+  const data = articles.slice(-3).map((article) => {
+    const {
+      title,
+      description,
+      reading_time_minutes,
+      created_at,
+      cover_image,
+      comments_count,
+      positive_reactions_count,
+      url,
+    } = article;
+
+    return {
+      title,
+      description,
+      reading_time_minutes,
+      created_at,
+      cover_image,
+      comments_count,
+      positive_reactions_count,
+      url,
+    };
+  });
+
+  return data;
+};
+
+const displayArticles = async () => {
+  const articles = await fetchArticles();
+  const articlesEl = document.querySelector(".articles");
+  const blogPostsEl = document.querySelector("#blog-posts");
+
+  articles.forEach((articleData) => {
+    const {
+      title,
+      description,
+      reading_time_minutes,
+      created_at,
+      cover_image,
+      comments_count,
+      positive_reactions_count,
+      url,
+    } = articleData;
+
+    const formatDate = (isoString) => {
+      const date = new Date(isoString);
+
+      const monthNames = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+
+      const day = date.getUTCDate();
+      const month = monthNames[date.getUTCMonth()];
+      const year = date.getUTCFullYear();
+
+      return `${day} ${month}, ${year}`;
+    };
+
+    const date = formatDate(created_at);
+
+    const articleEl = document.createElement("article");
+    articleEl.className = "article";
+    articleEl.innerHTML = `
+      <img
+        src="${cover_image}"
+        alt="Cover image from DEV.to blog post"
+        class="article-img"
+      />
+
+      <div class="article-text-box">
+        <p class="article-title">${title}</p>
+
+        <div class="row space-between margin-bottom--md">
+          <p class="article-reading-time">${reading_time_minutes} min</p>
+
+          <div class="row gap--sm">
+            <span class="article-reactions">
+              <ion-icon
+                name="heart"
+                class="article-icon icon--heart"
+              ></ion-icon>
+              <span class="reactions-number">${positive_reactions_count}</span>
+            </span>
+
+            <span class="article-comments">
+              <ion-icon
+                name="chatbox"
+                class="article-icon icon--comments"
+              ></ion-icon>
+              <span class="comments-number">${comments_count}</span>
+            </span>
+          </div>
+        </div>
+
+        <p class="article-description">
+          ${description}
+        </p>
+
+        <div class="row">
+          <p class="article-date">${date}</p>
+          <a
+            target="_blank"
+            href="${url}"
+            class="link article-link"
+            aria-label="Read more about ${title}"
+            >Dev.to article</a
+          >
+        </div>
+      </div>
+    `;
+
+    articlesEl.appendChild(articleEl);
+
+    const blogPostEl = document.createElement("li");
+    blogPostEl.innerHTML = `<a href="${url}" target="_blank" class="footer-link">${title}</a>`;
+
+    blogPostsEl.appendChild(blogPostEl);
+  });
+};
+
+displayArticles();
+
 //! What to expect (Services) Section Accordion
 
 const accordionItems = document.querySelectorAll(".accordion-item");
