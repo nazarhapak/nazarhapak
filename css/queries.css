@@ -428,7 +428,7 @@
 
 @media (max-width: 26em) {
   .accordion-open.accordion-item {
-    max-height: 75rem;
+    max-height: 45rem;
   }
 
   .hidden-text {
