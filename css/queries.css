@@ -381,6 +381,12 @@
   .grid--3-cols {
     grid-template-columns: 1fr;
   }
+  
+  .article:nth-child(3) {
+    width: 100%;
+    grid-column: 1;
+    justify-self: auto;
+  }
 
   .heading-secondary,
   .heading-cta {
