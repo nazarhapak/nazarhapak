@@ -112,7 +112,7 @@ const displayArticles = async () => {
         <p class="article-title">${title}</p>
 
         <div class="row space-between margin-bottom--md">
-          <p class="article-reading-time">${reading_time_minutes} min</p>
+          <p class="article-reading-time">${reading_time_minutes} min read</p>
 
           <div class="row gap--sm">
             <span class="article-reactions">
