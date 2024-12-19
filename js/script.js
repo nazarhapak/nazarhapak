@@ -6,10 +6,7 @@ const getDefaultFontSize = () => {
   element.style.display = "none";
   document.body.append(element);
 
-  const widthMatch = window
-    .getComputedStyle(element)
-    .getPropertyValue("width")
-    .match(/\d+/);
+  const widthMatch = window.getComputedStyle(element).getPropertyValue("width").match(/\d+/);
 
   element.remove();
 
@@ -24,21 +21,10 @@ const getDefaultFontSize = () => {
 //!  Displaying latest blog posts from DEV.to
 
 const fetchArticles = async () => {
-  const articles = await fetch(
-    "https://dev.to/api/articles?username=nazarhapak"
-  ).then((res) => res.json());
+  const articles = await fetch("https://dev.to/api/articles?username=nazarhapak").then((res) => res.json());
 
   const data = articles.slice(-3).map((article) => {
-    const {
-      title,
-      description,
-      reading_time_minutes,
-      created_at,
-      cover_image,
-      comments_count,
-      positive_reactions_count,
-      url,
-    } = article;
+    const { title, description, reading_time_minutes, created_at, cover_image, comments_count, positive_reactions_count, url } = article;
 
     return {
       title,
@@ -61,34 +47,12 @@ const displayArticles = async () => {
   const blogPostsEl = document.querySelector("#blog-posts");
 
   articles.forEach((articleData) => {
-    const {
-      title,
-      description,
-      reading_time_minutes,
-      created_at,
-      cover_image,
-      comments_count,
-      positive_reactions_count,
-      url,
-    } = articleData;
+    const { title, description, reading_time_minutes, created_at, cover_image, comments_count, positive_reactions_count, url } = articleData;
 
     const formatDate = (isoString) => {
       const date = new Date(isoString);
 
-      const monthNames = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
-      ];
+      const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
       const day = date.getUTCDate();
       const month = monthNames[date.getUTCMonth()];
@@ -167,13 +131,9 @@ const accordionItems = document.querySelectorAll(".accordion-item");
 
 accordionItems.forEach((accordionItem) => {
   const setMaxHeight = (item) => {
-    const accordionItemTitleHeight =
-      item.querySelector(".accordion-title").scrollHeight;
+    const accordionItemTitleHeight = item.querySelector(".accordion-title").scrollHeight;
 
-    item.style.maxHeight = `${
-      (getDefaultFontSize() / 10) * accordionItemTitleHeight +
-      (getDefaultFontSize() / 10) * 48
-    }px`;
+    item.style.maxHeight = `${(getDefaultFontSize() / 10) * accordionItemTitleHeight + (getDefaultFontSize() / 10) * 48}px`;
   };
 
   setMaxHeight(accordionItem);
@@ -282,3 +242,26 @@ allLinks.forEach((linkEl) => {
     }
   });
 });
+
+//! Automatically Update Age
+
+const ageEl = document.getElementById("age");
+function calculateAge(birthdate) {
+  const birthDate = new Date(birthdate);
+  const today = new Date();
+
+  let age = today.getFullYear() - birthDate.getFullYear();
+
+  const monthDifference = today.getMonth() - birthDate.getMonth();
+  const dayDifference = today.getDate() - birthDate.getDate();
+
+  if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
+    age--;
+  }
+
+  return age;
+}
+
+const birthdate = "2008-09-10";
+const age = calculateAge(birthdate);
+ageEl.innerHTML = age;
