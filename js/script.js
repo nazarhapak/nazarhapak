@@ -245,7 +245,7 @@ allLinks.forEach((linkEl) => {
 
 //! Automatically Update Age
 
-const ageEl = document.getElementById("age");
+const ageEls = [...document.getElementsByClassName("age")];
 function calculateAge(birthdate) {
   const birthDate = new Date(birthdate);
   const today = new Date();
@@ -264,4 +264,6 @@ function calculateAge(birthdate) {
 
 const birthdate = "2008-09-10";
 const age = calculateAge(birthdate);
-ageEl.innerHTML = age;
+ageEls.forEach((ageEl) => {
+  ageEl.innerHTML = age;
+});
